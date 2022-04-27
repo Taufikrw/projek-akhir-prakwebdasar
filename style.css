@@ -1,0 +1,199 @@
+.register-container {
+    height: 150% !important;
+}
+
+.register-container, .login-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #30475E;
+}
+
+.register-form {
+    width: 30rem;
+    height: 750px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px;
+    background-color: #203239;
+}
+
+.card-login {
+    font-family: 'Source Code Pro', monospace !important;
+}
+
+.btn-login {
+    font-family: 'Source Code Pro', monospace !important;
+    font-size: 16px !important;
+}
+
+.login-form {
+    width: 30rem;
+    height: 480px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px;
+    background-color: #203239;
+}
+
+.my-profile-card, .schedule-card {
+    box-shadow: 3px 3px 10px;
+}
+
+
+.body-book
+{
+    height: 100vh;
+}
+/* NAVBAR */
+.navbar {
+    background-color: 0,0,0;
+    background-color: 0,0,0,0.4;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.navbar-brand
+{
+    font-family: 'Frijole', cursive;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: 'Chewy', cursive;
+}
+
+
+/* JUMBUTRON */
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://img.freepik.com/free-photo/vintage-wooden-table-with-beard-shaping-salon-tools_53876-127084.jpg?t=st=1649560125~exp=1649560725~hmac=20479e95baaeaa0c66ac924b5f9e90a1f98a95b99a0298cddb553696b1b01d7f&w=900);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: aliceblue;
+}
+
+.logo {
+    width:85%; 
+    min-width: 150px;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-family: 'Concert One', cursive;
+}
+
+.btn-danger {
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Concert One', cursive;
+}
+
+@media (max-width: 600px)
+{
+    .banner
+    {
+        height: 80vh;
+    }
+}
+
+/* CONTENT */
+.content-title
+{
+    font-family: 'Chewy', cursive;
+    color:#a52a2a;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.service-icon
+{
+    width:100%;
+}
+
+.service-text
+{
+    font-family: 'Chewy', cursive;
+    text-shadow: 0 0 5px blue;
+}
+
+.service-icon:hover
+{
+    width: 120%;
+}
+
+.content-box
+{
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    backdrop-filter: blur(4px);
+    box-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px darkblue;
+}
+
+.service-card
+{
+    box-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px darkblue;
+}
+
+.card-img-top
+{
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+}
+
+.employee-card
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    backdrop-filter: blur(4px); 
+    box-shadow: 1px 1px 2px black, 0 0 10px rgb(211, 25, 19), 0 0 5px rgb(139, 9, 0);
+}
+
+.card-title
+{
+    font-family: 'Nerko One', cursive;
+    color: rgb(218, 216, 214);
+    font-size: 20px;
+}
+
+.teks-biodata, .content-box
+{
+    font-family: 'Coming Soon', cursive;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.contact-title
+{
+    font-family: 'Nerko One', cursive;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-values
+{
+    font-family: 'Coming Soon', cursive;
+    color: white;
+}
+
+.maps
+{
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.maps:hover
+{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
